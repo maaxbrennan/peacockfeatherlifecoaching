@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
+
+
 html,
 body {
     margin: 0;
@@ -53,7 +56,6 @@ h6 {
 
 /* MENU BITS */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
 
 .content {
     display: flex;
