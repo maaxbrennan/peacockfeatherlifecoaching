@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
 
-
 html,
 body {
     margin: 0;
@@ -113,7 +112,7 @@ h6 {
 .menu ul li {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 45px;
+    font-size: 32px;
     color: white;
     min-height: 45px;
     padding: 15px;
@@ -213,10 +212,18 @@ body.menu-open .plus-btn .r2 {
 
 @media (min-width: 480px) {}
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .menu ul li {
+        font-size: 40px;
+    }
+}
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .menu ul li {
+        font-size: 45px;
+    }
+}
 
 @media (min-width: 1200px) {}
