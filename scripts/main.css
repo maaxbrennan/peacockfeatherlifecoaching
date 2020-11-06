@@ -37,8 +37,6 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
 }
 
 #spin {
@@ -111,6 +109,26 @@ h6 {
     visibility: hidden;
 }
 
+
+.menuarea {
+    position: absolute;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #cbcbcb;
+    background-color: white;
+    z-index: 2;
+}
+
+.footerarea {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background-color: #777CA8;
+    width: 100%;
+}
+
+
 .menu ul {
     padding-left: 0;
 }
@@ -144,7 +162,7 @@ h6 {
 }
 
 .menu-sliders:nth-child(odd) {
-    background: #005db7;
+    background: #777CA8;
 }
 
 .plus-btn-pos {
@@ -162,6 +180,7 @@ h6 {
     position: relative;
     border: 1px solid grey;
     cursor: pointer;
+    transition: all 0.1s;
 }
 
 .plus-btn div {
@@ -170,7 +189,7 @@ h6 {
     left: 50%;
     width: 16px;
     height: 3px;
-    background: #0259a5;
+    background: #777CA8;
     transition: transform 0.3s;
     transition-delay: 0.5s;
 }
@@ -184,7 +203,8 @@ h6 {
 }
 
 .plus-btn:hover {
-    background: #0259a5;
+    background: #777CA8;
+    transition: all 0.1s;
 }
 
 .plus-btn:hover div {
