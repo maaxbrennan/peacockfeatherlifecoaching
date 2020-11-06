@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
 html,
 body {
@@ -32,6 +33,35 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.mobile-title h1 {
+    width: 100%;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.mobile-title h2 {
+    width: 100%;
+    top: 40px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.desktop-title h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway';
+    font-weight: 100;
+    top: 20px;
+    font-size: 30px;
+}
 
 .home-wrapper {
     display: flex;
@@ -51,6 +81,18 @@ h6 {
     to {
         -webkit-transform: rotate(360deg);
     }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 680px;
+    margin: 7px auto;
+}
+
+.social-icons img {
+    max-width: 26px;
+    padding: 3px;
 }
 
 /* MENU BITS */
@@ -154,6 +196,7 @@ h6 {
     justify-content: center;
     align-items: center;
     transition: flex 0.45s;
+    margin-bottom: 41px;
 }
 
 .menu-sliders:nth-child(2) {
@@ -245,6 +288,13 @@ body.menu-open .plus-btn .r2 {
 }
 
 @media (min-width: 768px) {}
+
+@media (min-width: 838px) {
+    .desktop-title h1 {
+        top: 17.5px;
+        font-size: 35px;
+    }
+}
 
 @media (min-width: 992px) {
     .menu ul li {
