@@ -55,7 +55,7 @@ h6 {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 100vh;
+    height: calc(100vh - 127px);
     width: 100vw;
     z-index: 1;
     text-align: center;
@@ -80,10 +80,11 @@ h6 {
 }
 
 .content div p {
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Raleway';
     font-weight: 100;
     letter-spacing: 1px;
+    padding: 40px;
 }
 
 .menu-container {
@@ -92,7 +93,7 @@ h6 {
     display: flex;
     align-items: stretch;
     overflow: hidden;
-    height: 100vh;
+    height: calc(100vh - 128px);
     width: 100vw;
     pointer-events: none;
 }
@@ -102,7 +103,7 @@ h6 {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 100vh;
+    height: calc(100vh - 128px);
     width: 100vw;
     z-index: 3;
     top: 0;
@@ -116,7 +117,7 @@ h6 {
 }
 
 .menuarea {
-    position: absolute;
+    position: relative;
     height: 90px;
     top: 0;
     width: 100%;
@@ -150,7 +151,6 @@ h6 {
     justify-content: center;
     align-items: center;
     transition: flex 0.45s;
-    margin-bottom: 38px;
 }
 
 .menu-sliders:nth-child(2) {
@@ -165,7 +165,7 @@ h6 {
 .plus-btn-pos {
     position: absolute;
     top: 25px;
-    right: 25px;
+    right: 15px;
     z-index: 5;
 }
 
@@ -235,8 +235,24 @@ body.menu-open .plus-btn .r2 {
 
 /* ---------------- */
 
-.main-title h1 {
+.main-title {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo {
+    height: 90px;
+}
+
+.main-logo > a > img {
+    max-width: 40px;
+    margin-left: 15px;
+    margin-top: 25px;
     width: 100%;
+}
+
+.main-title h1 {
+    width: 65%;
     top: 18px;
     position: absolute;
     text-align: center;
@@ -246,7 +262,7 @@ body.menu-open .plus-btn .r2 {
 }
 
 .main-title h2 {
-    width: 100%;
+    width: 50%;
     top: 47px;
     position: absolute;
     text-align: center;
@@ -273,6 +289,7 @@ body.menu-open .plus-btn .r2 {
     width: 100%;
     z-index: 2;
     display: inline-flex;
+    background-image: linear-gradient(to right, #777ca8, #6c95d7, #51aad0, #777ca8);
 }
 
 .social-icons {
@@ -317,6 +334,32 @@ body.menu-open .plus-btn .r2 {
     .menu ul li {
         font-size: 40px;
     }
+
+    .plus-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .plus-btn-pos {
+        top: 20px;
+        right: 25px;
+    }
+
+    .main-logo > a > img {
+        max-width: 50px;
+        margin-left: 25px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .content div p {
+        font-size: 22px;
+        font-family: 'Raleway';
+        font-weight: 100;
+        letter-spacing: 1px;
+        padding: 5px;
+    }
+
 }
 
 @media (min-width: 768px) {}
