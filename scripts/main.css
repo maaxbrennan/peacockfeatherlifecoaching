@@ -290,7 +290,7 @@ body.menu-open .plus-btn .r2 {
     width: 100%;
     z-index: 2;
     display: inline-flex;
-    background-image: linear-gradient(to right, #777ca8, #6c95d7, #51aad0, #777ca8);
+    background-image: linear-gradient(to right, #777ca8, #829fcd, #5699b6, #777ca8);
 }
 
 .social-icons {
