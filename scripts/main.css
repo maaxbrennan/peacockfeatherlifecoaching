@@ -104,7 +104,7 @@ h6 {
 
 .menu {
     display: flex;
-    justify-content: right;
+    justify-content: end;
     align-items: center;
     position: absolute;
     height: calc(100vh - 128px);
