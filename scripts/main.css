@@ -100,7 +100,7 @@ h6 {
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     position: absolute;
     height: calc(100vh - 128px);
@@ -110,7 +110,7 @@ h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    transform: translateY(-100%);
+    transform: translateX(100%);
     transition: transform 0.5s;
     transition-delay: 0.5s;
     visibility: hidden;
@@ -133,16 +133,24 @@ h6 {
 .menu ul li {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 32px;
+    font-size: 19px;
     color: white;
     min-height: 45px;
     padding: 15px;
-    text-align: center;
+    text-align: right;
     list-style: none;
 }
 
 .menu ul li a {
     cursor: pointer;
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: #cfcfcf;
+    transition: all 0.1s;
 }
 
 .menu-sliders {
@@ -217,7 +225,7 @@ body.menu-open .menu-sliders:nth-child(2) {
 }
 
 body.menu-open .menu {
-    transform: translateY(0%);
+    transform: translateX(0%);
     visibility: visible;
     pointer-events: all;
 }
@@ -333,7 +341,7 @@ body.menu-open .plus-btn .r2 {
 
 @media (min-width: 576px) {
     .menu ul li {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .plus-btn {
@@ -361,6 +369,19 @@ body.menu-open .plus-btn .r2 {
         padding: 5px;
     }
 
+    .menu {
+        justify-content: center;
+        transform: translateY(-100%);
+    }
+
+    body.menu-open .menu {
+        transform: translateY(0%);
+    }
+
+    .menu ul li {
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 768px) {}
@@ -374,7 +395,7 @@ body.menu-open .plus-btn .r2 {
 
 @media (min-width: 992px) {
     .menu ul li {
-        font-size: 45px;
+        font-size: 26px;
     }
 }
 
