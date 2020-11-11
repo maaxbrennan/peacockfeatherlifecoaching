@@ -6,13 +6,15 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
+}
+
+body .home-page {
+    overflow: hidden;
 }
 
 body {
     background: #F0F0F0;
-    overflow-y: scroll;
 }
 
 * {
@@ -77,17 +79,23 @@ h6 {
     font-weight: 100;
 }
 
-.content div {
+body.home-page .content div {
     max-width: 570px;
 }
 
-.content div p {
+body.home-page .content div p {
     font-size: 23px;
     font-family: 'Raleway';
     font-weight: 100;
     letter-spacing: 1px;
     padding: 40px;
     color: #fff;
+}
+
+.panel-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .menu-container {
@@ -163,6 +171,7 @@ h6 {
     justify-content: center;
     align-items: center;
     transition: flex 0.45s;
+    transition-delay: 0.2s;
 }
 
 .menu-sliders:nth-child(2) {
@@ -290,6 +299,33 @@ body.menu-open .plus-btn .r2 {
     align-items: center;
 }
 
+.padding30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonial {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 15px;
+}
+
+.testimonial.purple {
+    background: #777ca8;
+    color: white;
+}
+
+.testimonial.grey {
+    background: #f7f7f7;
+}
+
+.testimonial blockquote span {
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
 /* ---------------- */
 
 
@@ -366,7 +402,7 @@ body.menu-open .plus-btn .r2 {
     }
 
 
-    .content div p {
+    body.home-page .content div p {
         font-size: 22px;
         font-family: 'Raleway';
         font-weight: 100;
@@ -374,7 +410,7 @@ body.menu-open .plus-btn .r2 {
         padding: 5px;
     }
 
-    .content div p {
+    body.home-page .content div p {
         padding: 25px 20px;
     }
 
