@@ -100,13 +100,14 @@ body.home-page .content div p {
 
 .menu-container {
     z-index: 2;
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: stretch;
     overflow: hidden;
-    height: calc(100vh - 128px);
+    height: 100%;
     width: 100vw;
     pointer-events: none;
+    top: 0;
 }
 
 .menu {
@@ -125,7 +126,7 @@ body.home-page .content div p {
     transition: transform 0.5s;
     transition-delay: 0.5s;
     visibility: hidden;
-
+    padding-top: 90px;
 }
 
 .menuarea {
@@ -135,7 +136,7 @@ body.home-page .content div p {
     width: 100%;
     border-bottom: 1px solid #cbcbcb;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu ul {
@@ -184,7 +185,7 @@ body.home-page .content div p {
 }
 
 .plus-btn-pos {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 15px;
     z-index: 5;
@@ -387,7 +388,7 @@ body.menu-open .plus-btn .r2 {
 
 @media (min-width: 576px) {
     .menu ul li {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .plus-btn {
@@ -433,7 +434,7 @@ body.menu-open .plus-btn .r2 {
 
 @media (min-width: 992px) {
     .menu ul li {
-        font-size: 26px;
+        font-size: 23px;
     }
 }
 
