@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
 
 html {
     overflow-x: hidden;
@@ -288,7 +290,7 @@ body.menu-open .plus-btn .r2 {
     top: 18px;
     position: absolute;
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Petit Formal Script', cursive;
     font-weight: 100;
     font-size: 23px;
 }
@@ -298,7 +300,7 @@ body.menu-open .plus-btn .r2 {
     top: 47px;
     position: absolute;
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Petit Formal Script', cursive;
     font-weight: 100;
     font-size: 20px;
 }
@@ -380,7 +382,7 @@ body.menu-open .plus-btn .r2 {
 }
 
 .snap-title h1 {
-    font-family: 'Raleway';
+    font-family: 'Petit Formal Script', cursive;
     color: #fff;
     text-align: center;
 }
