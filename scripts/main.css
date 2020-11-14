@@ -517,6 +517,18 @@ body.contact-page .snap-content {
     font-size: 18px;
 }
 
+.about-section h2 {
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.about-section p {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 14px;
+}
 
 /* ---------------- */
 
@@ -572,6 +584,26 @@ body.contact-page .snap-content {
     }
 }
 
+@media (min-width: 500px) {
+
+    .contact-line i span a {
+        font-size: 17px;
+    }
+
+    .contact-line h2 {
+        font-size: 32px;
+    }
+
+    .about-section h2 {
+        font-size: 26px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+}
+
+
 @media (min-width: 576px) {
     .menu ul li {
         font-size: 20px;
@@ -609,18 +641,12 @@ body.contact-page .snap-content {
 
 }
 
-@media (min-width: 500px) {
 
-    .contact-line i span a {
-        font-size: 17px;
-    }
-
-    .contact-line h2 {
-        font-size: 32px;
+@media (min-width: 768px) {
+    .about-section h2 {
+        font-size: 28px;
     }
 }
-
-@media (min-width: 768px) {}
 
 @media (min-width: 838px) {
     .desktop-title h1 {
@@ -636,6 +662,10 @@ body.contact-page .snap-content {
 @media (min-width: 992px) {
     .menu ul li {
         font-size: 23px;
+    }
+
+    .about-section h2 {
+        font-size: 33px;
     }
 }
 
