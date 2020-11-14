@@ -517,6 +517,7 @@ body.contact-page .snap-content {
     font-size: 18px;
 }
 
+
 .about-section h2 {
     color: #fff;
     font-family: 'Petit Formal Script', cursive;
@@ -544,11 +545,12 @@ body.contact-page .snap-content {
     display: inline-flex;
     background-image: linear-gradient(to right, #777ca8, #6793da, #777ca8);
     border-top: 1px solid white;
+    height: 40px;
 }
 
 .social-icons {
     display: flex;
-    margin: 4px 4px 4px 0px;
+    margin: 5px 4px 5px 0px;
 }
 
 .social-icons img {
@@ -565,6 +567,28 @@ body.contact-page .snap-content {
 .social-icons.left {
     width: 50%;
     justify-content: left;
+}
+
+.contact-button {
+    color: white;
+    border: 1px solid white;
+    margin: 2px 5px;
+    padding: 4.5px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    height: 25px;
+    border-radius: 2px;
+    transition: all 0.15s;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: #fff;
+    transition: all 0.15s;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #6d8ac7;
 }
 
 /* footer bits end */
