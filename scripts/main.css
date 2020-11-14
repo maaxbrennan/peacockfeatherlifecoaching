@@ -366,6 +366,10 @@ body.menu-open .plus-btn .r2 {
     width: 100%;
 }
 
+body.contact-page .snap-content {
+    scroll-snap-type: unset;
+}
+
 .snap-content .snap:nth-child(2) {
     background: #c3c6dc;
 }
@@ -399,6 +403,7 @@ body.menu-open .plus-btn .r2 {
     border: 1px solid white;
     padding: 3px 7px;
     color: #8e91a1;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-form input:nth-child(1),
@@ -407,12 +412,14 @@ body.menu-open .plus-btn .r2 {
 }
 
 .contact-form form button {
-    font-size: 18px;
+    font-size: 14px;
     border: 1px solid white;
     background-color: white;
     color: #abafc9;
     padding: 5px 20px;
     transition: all 0.2s;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-form form button:hover {
@@ -428,6 +435,14 @@ body.menu-open .plus-btn .r2 {
     border: 1px solid white;
     padding: 3px 7px;
     color: #8e91a1;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-box {
+    padding: 15px 10px;
+    margin: 10px 0px;
+    background: #fff;
+    height: calc(100% - 20px);
 }
 
 #consent {
@@ -439,15 +454,18 @@ body.menu-open .plus-btn .r2 {
     color: #fff;
     margin: 15px 0px 0px 0px;
     font-size: 13px;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-form label {
     color: #fff;
     margin: 15px 0px 0px 0px;
     font-size: 13px;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-form h3 {
+    font-family: 'Petit Formal Script', cursive;
     color: #fff;
     font-size: 30px;
     margin: 0px 0px 20px 0px;
@@ -459,9 +477,46 @@ body.menu-open .plus-btn .r2 {
     margin: 10px 0px;
 }
 
+.contact-line {
+    margin: 5px 0px 0px 10px;
+}
+
+.contact-line i,
+.contact-line i span {
+    color: #c3c6dc;
+    font-size: 17px;
+}
+
+.contact-line span {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
 .thank-you h1 {
     color: black !important;
 }
+
+.contact-line i span a {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #c3c6dc;
+}
+
+.contact-line h2 {
+    font-family: "Roboto", sans-serif;
+    color: #c3c6dc;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.contact-line h3 {
+    font-family: "Roboto", sans-serif;
+    color: #c3c6dc;
+    font-weight: 100;
+    font-size: 18px;
+}
+
 
 /* ---------------- */
 
@@ -554,12 +609,27 @@ body.menu-open .plus-btn .r2 {
 
 }
 
+@media (min-width: 500px) {
+
+    .contact-line i span a {
+        font-size: 17px;
+    }
+
+    .contact-line h2 {
+        font-size: 32px;
+    }
+}
+
 @media (min-width: 768px) {}
 
 @media (min-width: 838px) {
     .desktop-title h1 {
         top: 17.5px;
         font-size: 35px;
+    }
+
+    body.contact-page .snap-content {
+        scroll-snap-type: both mandatory;
     }
 }
 
