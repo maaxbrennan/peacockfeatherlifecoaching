@@ -565,6 +565,32 @@ body.contact-page .snap-content {
     text-decoration: underline;
 }
 
+.news-section h2 {
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.news-section h3 {
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 17px;
+}
+
+.news-section p {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
+.news-section p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .services-heading h2 {
     color: #fff;
     font-family: 'Petit Formal Script', cursive;
@@ -682,6 +708,14 @@ body.contact-page .snap-content {
     .about-section p {
         font-size: 16px;
     }
+
+    .news-section h2 {
+        font-size: 26px;
+    }
+
+    .news-section p {
+        font-size: 16px;
+    }
 }
 
 
@@ -731,6 +765,10 @@ body.contact-page .snap-content {
         font-size: 28px;
     }
 
+    .news-section h2 {
+        font-size: 28px;
+    }
+
     .services-icon h4 {
         font-size: 16px;
     }
@@ -758,6 +796,10 @@ body.contact-page .snap-content {
     }
 
     .about-section h2 {
+        font-size: 33px;
+    }
+
+    .news-section h2 {
         font-size: 33px;
     }
 
