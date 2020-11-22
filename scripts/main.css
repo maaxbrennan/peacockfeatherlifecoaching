@@ -141,7 +141,7 @@ body.home-page .content div p {
     top: 0;
     width: 100%;
     border-bottom: 1px solid #cbcbcb;
-    background-color: white;
+    background-color: #fff;
     z-index: 3;
 }
 
@@ -153,7 +153,7 @@ body.home-page .content div p {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 19px;
-    color: white;
+    color: #fff;
     min-height: 45px;
     padding: 15px;
     text-align: center;
@@ -598,7 +598,7 @@ body.contact-page .snap-content {
 }
 
 .services-icon h4 {
-    color: white;
+    color: #fff;
     font-size: 14px;
     font-family: 'Roboto';
     font-weight: 100;
@@ -606,12 +606,12 @@ body.contact-page .snap-content {
 
 .services-icon img {
     width: 100%;
-    max-width: 60px;
-    margin-bottom: 7px;
+    max-width: 43px;
+    margin-bottom: 3px;
 }
 
 .services-icon a:hover {
-    color: white;
+    color: #fff;
 }
 
 /* ---------------- */
