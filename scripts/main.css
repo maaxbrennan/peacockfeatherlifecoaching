@@ -375,6 +375,10 @@ body.contact-page .snap-content {
     scroll-snap-type: unset;
 }
 
+body.spiritual-transcendance .snap-content {
+    scroll-snap-type: unset;
+}
+
 .snap-content .snap:nth-child(2) {
     background: #989bc1;
 }
@@ -459,6 +463,53 @@ body.contact-page .snap-content {
     font-family: "Roboto", sans-serif;
 }
 
+.spiritual-form input {
+    display: block;
+    margin: 0px 0px 10px 0px;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 7px;
+    color: #8e91a1;
+    font-family: "Roboto", sans-serif;
+}
+
+.spiritual-form input:nth-child(1),
+.spiritual-form input:nth-child(2) {
+    width: 100%;
+}
+
+.spiritual-form p {
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+
+.spiritual-form form button {
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: white;
+    color: #abafc9;
+    padding: 5px 20px;
+    transition: all 0.2s;
+    font-family: "Roboto", sans-serif;
+}
+
+.spiritual-form form button:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s;
+}
+
+.spiritual-form textarea {
+    width: 100%;
+    height: 140px;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 3px 7px;
+    color: #8e91a1;
+    font-family: "Roboto", sans-serif;
+}
+
 .contact-box {
     padding: 15px 10px;
     margin: 10px 0px;
@@ -493,6 +544,26 @@ body.contact-page .snap-content {
 }
 
 .contact-form {
+    border: 2px dashed white;
+    padding: 15px 10px;
+    margin: 10px 0px;
+}
+
+.spiritual-form label {
+    color: #fff;
+    margin: 15px 0px 0px 0px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.spiritual-form h3 {
+    font-family: 'Petit Formal Script', cursive;
+    color: #fff;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+.spiritual-form {
     border: 2px dashed white;
     padding: 15px 10px;
     margin: 10px 0px;
@@ -565,6 +636,35 @@ body.contact-page .snap-content {
     text-decoration: underline;
 }
 
+
+.spiritual-section h2 {
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.spiritual-section h3 {
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 17px;
+}
+
+.spiritual-section p {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
+.spiritual-section p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
 .news-section h2 {
     color: #fff;
     font-family: 'Petit Formal Script', cursive;
@@ -612,6 +712,17 @@ body.contact-page .snap-content {
 
 .services-icon a:hover {
     color: #fff;
+}
+
+.snap-title.spiritual h3 {
+    color: #fff;
+    max-width: 910px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 30px;
 }
 
 /* ---------------- */
@@ -709,6 +820,14 @@ body.contact-page .snap-content {
         font-size: 16px;
     }
 
+    .spiritual-section h2 {
+        font-size: 26px;
+    }
+
+    .spiritual-section p {
+        font-size: 16px;
+    }
+
     .news-section h2 {
         font-size: 26px;
     }
@@ -765,6 +884,10 @@ body.contact-page .snap-content {
         font-size: 28px;
     }
 
+    .spiritual-section h2 {
+        font-size: 28px;
+    }
+
     .news-section h2 {
         font-size: 28px;
     }
@@ -777,6 +900,11 @@ body.contact-page .snap-content {
         max-width: 70px;
         margin-bottom: 15px;
     }
+
+    .snap-title.spiritual h3 {
+        font-size: 23px;
+        padding: 10px 40px;
+    }
 }
 
 @media (min-width: 838px) {
@@ -788,6 +916,10 @@ body.contact-page .snap-content {
     body.contact-page .snap-content {
         scroll-snap-type: both mandatory;
     }
+
+    body.spiritual-transcendance .snap-content {
+        scroll-snap-type: both mandatory;
+    }
 }
 
 @media (min-width: 992px) {
@@ -796,6 +928,10 @@ body.contact-page .snap-content {
     }
 
     .about-section h2 {
+        font-size: 33px;
+    }
+
+    .spiritual-section h2 {
         font-size: 33px;
     }
 
