@@ -585,7 +585,14 @@ body.spiritual-transcendance .snap-content {
 }
 
 .thank-you h1 {
-    color: black !important;
+    color: #000 !important;
+    font-size: 33px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.snap-title.thank-you {
+    max-width: 1000px;
 }
 
 .contact-line i span a {
