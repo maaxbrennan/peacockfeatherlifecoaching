@@ -564,7 +564,6 @@ body.spiritual-transcendance .snap-content {
 }
 
 .spiritual-form {
-    border: 2px dashed white;
     padding: 15px 10px;
     margin: 10px 0px;
 }
@@ -909,8 +908,12 @@ body.spiritual-transcendance .snap-content {
     }
 
     .snap-title.spiritual h3 {
-        font-size: 23px;
+        font-size: 21px;
         padding: 10px 40px;
+    }
+
+    .spiritual-form {
+        border: 2px dashed white;
     }
 }
 
@@ -944,6 +947,10 @@ body.spiritual-transcendance .snap-content {
 
     .news-section h2 {
         font-size: 33px;
+    }
+
+    .testimonial {
+        padding: 27px;
     }
 
 }
