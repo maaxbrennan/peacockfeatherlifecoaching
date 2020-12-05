@@ -349,6 +349,22 @@ body.menu-open .plus-btn .r2 {
     padding: 15px;
 }
 
+.t-title {
+    margin-top: 20px;
+}
+
+.testimonial.grey h3 {
+    font-family: 'Petit Formal Script', cursive;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.testimonial.purple h3 {
+    font-family: 'Petit Formal Script', cursive;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
 .testimonial.purple {
     background: #777ca8;
     color: white;
