@@ -386,7 +386,7 @@ body.contact-page .snap-content {
     scroll-snap-type: unset;
 }
 
-body.spiritual-transcendance .snap-content {
+body.spiritual-transcendence .snap-content {
     scroll-snap-type: unset;
 }
 
@@ -881,13 +881,13 @@ body.spiritual-transcendance .snap-content {
     }
 
     body.home-page .content div p {
-font-size: 16px;
-font-family: 'Raleway';
-font-weight: 100;
-letter-spacing: 5px;
-padding: 40px 20px;
-color: #fff;
-text-transform: uppercase;
+        font-size: 16px;
+        font-family: 'Raleway';
+        font-weight: 100;
+        letter-spacing: 5px;
+        padding: 40px 20px;
+        color: #fff;
+        text-transform: uppercase;
     }
 
     body.home-page .content div:nth-child(1) p {
@@ -939,7 +939,7 @@ text-transform: uppercase;
         scroll-snap-type: both mandatory;
     }
 
-    body.spiritual-transcendance .snap-content {
+    body.spiritual-transcendence .snap-content {
         scroll-snap-type: both mandatory;
     }
 }
