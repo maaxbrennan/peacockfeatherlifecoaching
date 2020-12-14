@@ -321,6 +321,14 @@ body.menu-open .plus-btn .r2 {
     font-size: 14px;
 }
 
+.main-title img {
+    filter: invert(1);
+    max-width: 200px;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+
 .home-wrapper {
     display: flex;
     justify-content: center;
@@ -817,6 +825,16 @@ body.spiritual-transcendence .snap-content {
     color: #6d8ac7;
 }
 
+.price-table p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.price-table h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 /* footer bits end */
 
 
@@ -899,7 +917,7 @@ body.spiritual-transcendence .snap-content {
     body.home-page .content div p {
         font-size: 16px;
         font-family: 'Raleway';
-        font-weight: 100;
+        font-weight: 400;
         letter-spacing: 5px;
         padding: 40px 20px;
         color: #fff;
@@ -909,7 +927,6 @@ body.spiritual-transcendence .snap-content {
     body.home-page .content div:nth-child(1) p {
         padding: 35px 20px;
     }
-
 }
 
 
