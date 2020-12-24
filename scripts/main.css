@@ -450,10 +450,20 @@ body.spiritual-transcendence .snap-content {
     background: #323447;
 }
 
+.snap-content .snap:nth-child(11) {
+    background: #181a32;
+}
+
+.snap-content .snap:nth-child(12) {
+    background: #0d1037;
+}
+
 .snap-title h1 {
     font-family: 'Petit Formal Script', cursive;
     color: #fff;
     text-align: center;
+    padding: 5px;
+    font-size: 1.9rem;
 }
 
 .contact-form input {
@@ -831,8 +841,14 @@ body.spiritual-transcendence .snap-content {
 }
 
 .price-table h3 {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.price-table {
+    padding: 4px 9px;
+    border: 2px dashed #fff;
+    display: inline-block;
 }
 
 /* footer bits end */
@@ -959,6 +975,10 @@ body.spiritual-transcendence .snap-content {
 
     .spiritual-form {
         border: 2px dashed white;
+    }
+
+    .snap-title h1 {
+        font-size: 2.5rem;
     }
 }
 
