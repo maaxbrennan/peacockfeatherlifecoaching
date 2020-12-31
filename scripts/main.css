@@ -415,55 +415,55 @@ body.spiritual-transcendence .snap-content {
 }
 
 .snap-content .snap:nth-child(2) {
-    background: #989bc1;
+    background: #C8C9DE;
 }
 
 .snap-content .snap:nth-child(3) {
-    background: #8b8fb9;
+    background: #b8bad4;
 }
 
 .snap-content .snap:nth-child(4) {
-    background: #7f83b2;
+    background: #a8aacb;
 }
 
 .snap-content .snap:nth-child(5) {
-    background: #7275a0;
+    background: #989bc1;
 }
 
 .snap-content .snap:nth-child(6) {
-    background: #65688e;
+    background: #888cb7;
 }
 
 .snap-content .snap:nth-child(7) {
-    background: #585b7c;
+    background: #787cae;
 }
 
 .snap-content .snap:nth-child(8) {
-    background: #4c4e6a;
+    background: #686da4;
 }
 
 .snap-content .snap:nth-child(9) {
-    background: #3f4159;
+    background: #5b6097;
 }
 
 .snap-content .snap:nth-child(10) {
-    background: #323447;
+    background: #525687;
 }
 
 .snap-content .snap:nth-child(11) {
-    background: #3e4059;
+    background: #484c77;
 }
 
 .snap-content .snap:nth-child(12) {
-    background: #252737;
+    background: #3e4267;
 }
 
 .snap-content .snap:nth-child(13) {
-    background: #181a32;
+    background: #353857;
 }
 
 .snap-content .snap:nth-child(14) {
-    background: #0d1037;
+    background: #2b2e47;
 }
 
 .snap-title h1 {
@@ -857,6 +857,7 @@ body.spiritual-transcendence .snap-content {
     padding: 4px 9px;
     border: 2px dashed #fff;
     display: inline-block;
+    width: 100%;
 }
 
 /* footer bits end */
@@ -908,6 +909,10 @@ body.spiritual-transcendence .snap-content {
 
     .news-section p {
         font-size: 16px;
+    }
+
+    .price-table {
+        width: unset;
     }
 }
 
