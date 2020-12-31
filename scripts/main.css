@@ -451,10 +451,18 @@ body.spiritual-transcendence .snap-content {
 }
 
 .snap-content .snap:nth-child(11) {
-    background: #181a32;
+    background: #3e4059;
 }
 
 .snap-content .snap:nth-child(12) {
+    background: #252737;
+}
+
+.snap-content .snap:nth-child(13) {
+    background: #181a32;
+}
+
+.snap-content .snap:nth-child(14) {
     background: #0d1037;
 }
 
