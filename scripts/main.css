@@ -415,54 +415,50 @@ body.spiritual-transcendence .snap-content {
 }
 
 .snap-content .snap:nth-child(2) {
-    background: #C8C9DE;
-}
-
-.snap-content .snap:nth-child(3) {
     background: #b8bad4;
 }
 
-.snap-content .snap:nth-child(4) {
+.snap-content .snap:nth-child(3) {
     background: #a8aacb;
 }
 
-.snap-content .snap:nth-child(5) {
+.snap-content .snap:nth-child(4) {
     background: #989bc1;
 }
 
-.snap-content .snap:nth-child(6) {
+.snap-content .snap:nth-child(5) {
     background: #888cb7;
 }
 
-.snap-content .snap:nth-child(7) {
+.snap-content .snap:nth-child(6) {
     background: #787cae;
 }
 
-.snap-content .snap:nth-child(8) {
+.snap-content .snap:nth-child(7) {
     background: #686da4;
 }
 
-.snap-content .snap:nth-child(9) {
+.snap-content .snap:nth-child(8) {
     background: #5b6097;
 }
 
-.snap-content .snap:nth-child(10) {
+.snap-content .snap:nth-child(9) {
     background: #525687;
 }
 
-.snap-content .snap:nth-child(11) {
+.snap-content .snap:nth-child(10) {
     background: #484c77;
 }
 
-.snap-content .snap:nth-child(12) {
+.snap-content .snap:nth-child(11) {
     background: #3e4267;
 }
 
-.snap-content .snap:nth-child(13) {
+.snap-content .snap:nth-child(12) {
     background: #353857;
 }
 
-.snap-content .snap:nth-child(14) {
+.snap-content .snap:nth-child(13) {
     background: #2b2e47;
 }
 
@@ -784,7 +780,7 @@ body.spiritual-transcendence .snap-content {
     padding: 10px 30px;
 }
 
-/* ---------------- */
+
 
 
 /* footer bits start */
