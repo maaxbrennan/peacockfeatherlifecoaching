@@ -293,7 +293,7 @@ body.menu-open .plus-btn .r2 {
 
 .main-title h1 {
     width: 65%;
-    top: 18px;
+    top: 28px;
     position: absolute;
     text-align: center;
     font-family: 'Petit Formal Script', cursive;
@@ -302,18 +302,10 @@ body.menu-open .plus-btn .r2 {
 }
 
 .main-title h2 {
-    width: 50%;
     top: 47px;
-    position: absolute;
-    text-align: center;
-    font-family: 'Petit Formal Script', cursive;
-    font-weight: 100;
-    font-size: 20px;
-}
-
-.main-title h3 {
-    width: 50%;
-    top: 81px;
+    font-size: 24px;
+    width: 64%;
+    top: 68px;
     position: absolute;
     text-align: center;
     font-family: 'Petit Formal Script', cursive;
@@ -863,13 +855,13 @@ body.spiritual-transcendence .snap-content {
 
 @media (min-width: 480px) {
     .main-title h1 {
-        top: 14px;
+        top: 25px;
         font-size: 27px;
     }
 
     .main-title h2 {
-        top: 47px;
-        font-size: 24px;
+        top: 62px;
+        font-size: 19px;
     }
 }
 
